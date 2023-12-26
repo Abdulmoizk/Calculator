@@ -1,42 +1,70 @@
-.calc {
-    border: 1px solid black;
-    max-width: 300px;
-    margin: auto;
-    background-color: blanchedalmond;
-    padding: 12px;
-    height: 400PX;
-    border-radius: 10px;
-    text-align: center;
+@font-face {
+    font-family: "montserrat";
+    src: url(font/montserrat/Montserrat-VariableFont_wght.ttf);
 }
-button{
-    padding: 15px;
-    min-width: 60px;
-    max-width: 70px;
-    height: 60px;
-    border: 1px solid black;
-    border-radius: 10px;
-    margin: 3px;
+
+@font-face {
+    font-family: 'dancing';
+    src: url(font/dancing/DancingScript-VariableFont_wght.ttf);
+}
+
+* {
+    font-family: 'montserrat';
+
+}
+
+body {
+
+    background-color: #f0ffff;
+}
+
+.navbar {
+    background-color: #b2f0f0;
+    box-shadow: 0 2px 5px 1px rgba(64, 60, 67, .16);
+    height: 80px;
+}
+
+.navbar h3 {
+    font-family: "dancing";
+    font-size: 50px;
+    margin: 0 auto;
     font-weight: bold;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    
-    font-size: larger;
 }
-input{    
-    border: 1px solid grey;
-    border-radius: 2px;
-    padding: 15px;
-    margin: 8px;
-    text-align: center;
-    width: 80%;
+
+button {
     font-weight: bold;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    
-    font-size: larger;
-    text-align: right;
-    
+    padding: 5px;
+    width: 70px;
+    height: 70px;
+    margin: 5px;
+    font-size: 23px;
+    background-color: rgb(77, 89, 89);
+    color: azure;
+    border-radius: 50%;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition: ease-in-out;
 }
-button:hover{
-    background-color: white;
+
+button:hover {
+    transform: scale(1.05);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    background-color: #5fecec;
+    color: #000;
 }
-button:active{
-    box-shadow: 0 3px gainsboro;
-    border: 2px solid black;
+.borderr{
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: #b2f0f0;
+}
+
+#screen {
+   width: 100%;
+   background-color: azure;
+   border: none;
+   font-size: 23px;
+   border-radius: 5px;
+   padding: 10px 15px;
+   text-align: right;
+   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;;
 }

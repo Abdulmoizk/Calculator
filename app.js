@@ -1,4 +1,4 @@
- var screen = document.getElementById("screen")
+var screen = document.getElementById("screen")
 
 function addtodisplay(value) {
     var scrn = screen.value;
